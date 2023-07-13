@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/fern-api/fern/main/fern.schema.json
 
 types:
-
   PlayerId:
     type: string
     docs: Discord ID or TSMP ID
@@ -24,7 +23,7 @@ types:
       syncedRole:
         type: TaskResult
         docs: The task result of syncing the player's discord role
-  
+
   ManageApplicationRequest:
     properties:
       player: PlayerId
@@ -44,10 +43,12 @@ service:
 errors:
   UserDoesNotExist:
     status-code: 404
+
   UserHasNoApplication:
     status-code: 404
+
   UserHasNoMinecraftAccountLinked:
     status-code: 404
+
   InternalError:
     status-code: 500
-
