@@ -15,5 +15,3 @@ groups:
           token: ${NPM_TOKEN}
         config:
           namespaceExport: Amethyst
-        github:
-          repository: tristansmp/amethyst
