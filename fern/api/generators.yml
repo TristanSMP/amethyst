@@ -16,4 +16,4 @@ groups:
         config:
           namespaceExport: Amethyst
         github:
-          repository: fern-api/plantstore-node
+          repository: tristansmp/amethyst
