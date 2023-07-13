@@ -1,3 +1,9 @@
 name: api
+auth: bearer
 error-discrimination:
   strategy: status-code
+
+environments:
+  Production: https://ame.tristansmp.com
+  Development: http://localhost:8080
+default-environment: Production
