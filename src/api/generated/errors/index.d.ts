@@ -1,1 +1,0 @@
-export { TsmpApiError } from "./TsmpApiError";

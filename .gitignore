@@ -1,4 +1,11 @@
-lib/
-.DS_Store
 node_modules
-.env
+.DS_Store
+/dist
+/Client.d.ts
+/Client.js
+/index.d.ts
+/index.js
+/api
+/core
+/errors
+/serialization
